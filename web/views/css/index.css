@@ -1,0 +1,142 @@
+/* 头部 */
+header {
+    width: 100%;
+    height: 64px;
+    background-color: #446ADF;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container {
+    margin: 0 18px !important;
+    height: 64px;
+    line-height: 64px;
+    position: relative;
+}
+.email,
+.search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.email {
+    width: 38px;
+    height: 30px;
+    left: 0;
+}
+.email a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/email.png);
+    background-size: 38px 30px;
+}
+.search {
+    width: 26px;
+    height: 26px;
+    right: 0;
+}
+.search a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url(../images/search.png);
+    background-size: 26px auto;
+}
+.logo {
+    height: 64px;
+    padding: 0 26px 0 38px;
+}
+.logo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* banner */
+.banner {
+    margin-top: 64px;
+    width: 100%;
+    height: 170px;
+}
+.banner a {
+    display: block;
+    width: 100%;
+    height: 170px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* job */
+.job  {
+    background-color: #fff;
+    padding: 5px 0;
+    margin-top: 15px; 
+}
+.job ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.job li {
+    width: 33.3%;
+    height: 103px;
+}
+.job li a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 30px auto;
+}
+.job li img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+/* lesson */
+.lesson {
+    background-color: #fff;
+    margin-top: 15px; 
+    margin-bottom: 70px;
+}
+.lesson .content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 0;
+}
+.lesson .item {
+    flex: 50%;
+    height: 168px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.item img {
+    width: 168px;
+    height: 101px;
+    border-radius: 5px;
+}
+.item h5 {
+    padding: 5px 0;
+    /* text-align: center; */
+    text-indent: 1em;
+    font-weight: 700;
+    font-size: 16px;
+}
+.item p {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.item p span:first-child {
+    color: #CDCDCD;
+    font-size: 14px;
+}
+.item p span:last-child {
+    color: #446ADF;
+    font-size: 14px;
+}

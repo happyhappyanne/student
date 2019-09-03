@@ -2,4 +2,4 @@
 api_server/node_modules/*
 
 # web
-web/node_modules/*
+web/node_modules/*‘

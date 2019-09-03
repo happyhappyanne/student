@@ -27,7 +27,7 @@ header .title {
 }
 header h2 {
     height: 64px;
-    line-height: 64px;
+    /* line-height: 64px; */
     font-size: 26px;
     color: #28ABFC;
     text-align: center;
@@ -37,11 +37,15 @@ header h2 {
 .main {
     margin-top: 80px;
     background-color: #fff;
-    display: flex;
+    position: relative;
+    min-height: 500px;
+    border: 1px solid #F5F5F5;
 }
 .main .nav {
-    width: 90px;
     background-color: #F5F5F5;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .nav li {
     height: 55px;
@@ -52,10 +56,10 @@ header h2 {
 }
 .nav .current {
     background-color: #fff;
+    border-left: 2px solid #28ABFC;
 }
-.main .detail {
-    flex: 1;
-    padding-left: 18px;
+.main>div {
+    padding-left: 108px;
 }
 .til h3 {
     font-size: 18px;
@@ -83,4 +87,7 @@ ul.mark {
     line-height: 34px;
     font-size: 14px;
     margin: 20px 10px 0 0;
+}
+.hide {
+    display: none;
 }

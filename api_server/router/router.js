@@ -15,7 +15,7 @@ index.get('/index', async (req, res) => {
    info.status = 200;
    info.msg = 'ok';
    info.data = courseInfo;
-   console.log(info);
+//    console.log(info);
    res.send(info);
         
 })
